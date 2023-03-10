@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Reading the data from CSV file
-data = pd.read_csv('regen_data.csv')
+data = pd.read_csv('regenerative_braking_data.csv')
 
 # Preparing the data for training
 X = data.iloc[:, :-1].values
