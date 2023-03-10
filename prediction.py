@@ -15,7 +15,7 @@ regressor = LinearRegression()
 regressor.fit(X, y)
 
 # Predicting the Regenerative Energy for new input values
-new_data = np.array([[2300, 50, 5]])
+new_data = np.array([[1200, 60, 600]])
 new_pred = regressor.predict(new_data)
 
 # Printing the predicted Regenerative Energy for new input values
