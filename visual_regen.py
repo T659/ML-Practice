@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Reading the data from CSV file
-data = pd.read_csv('regen_data.csv')
+data = pd.read_csv('regenerative_braking_data.csv')
 
 # Creating the subplots
 fig, axs = plt.subplots(2, 2, figsize=(10,10))
